@@ -1,0 +1,186 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+}
+
+p{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%)
+
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+
+}
+
+.container{
+    background-color: white;
+    width: 735px;
+    border-radius: 20px;
+    margin: 4rem auto;
+}
+
+.recipe-card{
+    padding: 2.5rem;
+
+}
+
+
+img{
+    width: 655px;
+    border-radius: 7px;
+}
+
+h1{
+    font-weight: 500;
+    color: #2a2827;
+}
+
+.recipe{
+    margin-top: 1rem;;
+}
+
+.recipe p{
+margin-top: 1rem;
+margin-bottom: 1rem;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin: 2rem 0rem;
+    padding: 1.5rem 0rem 1.75rem 3rem;
+}
+
+h4{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+    padding: 0.5rem 0rem 0.5rem;
+
+    
+}
+
+.preparation li{
+    font-family: "Outfit", sans-serif;
+    margin-left: 1.2rem;
+    padding: 0.5rem 1.2rem 0.5rem;
+    color: hsl(24, 5%, 18%)
+}
+
+.preparation li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+
+h3{
+    color: hsl(14, 45%, 36%);
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.ingredient{
+    padding: 0rem 0rem 1.75rem 1rem;
+}
+
+.ingredient li{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem;
+}
+
+.ingredient li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.instruction{
+    padding: 0rem 0rem 1.75rem 1rem;
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instruction li{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+    margin-left: 1.5rem;
+    padding: 0.5rem 1rem 0.5rem;
+}
+
+.instruction li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.nutrition{
+    margin: 1rem 0rem;
+  }
+ 
+  .nutrition-table {
+    margin-top: 2rem;
+    list-style-type: none;
+  }
+  
+  .nutrition-card {
+    display: flex;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+ 
+  }
+  
+  .nutrition-table li{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+  }
+
+.nutrition-table li.number{
+    list-style-type: none;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem;
+}
+
+  .macro {
+    width: 350px;
+    padding-left: 2rem;
+    border-radius: 1px solid black;
+  }
+
+  .mobileimg {
+    display: none;
+  }
+  
+  @media screen and (max-width: 700px) {
+
+    .container {
+      margin: 0rem auto;
+      width: 100%;
+      border-radius: 0px;
+    }
+  
+    .img {
+      display: none;
+    }
+  
+    .mobileimg {
+      display: block;
+      width: 100%;
+    }
+  
+    .preperation {
+      padding: 1.5rem 2rem 1.5rem 3rem;
+    }
+  
+  }
