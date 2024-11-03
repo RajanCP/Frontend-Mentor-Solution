@@ -19,7 +19,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: https://rajancp.github.io/FEM-Social-links-profile/
+- Solution URL: (https://rajancp.github.io/FEM-Social-links-solution/)
 
 ### Built with
 
