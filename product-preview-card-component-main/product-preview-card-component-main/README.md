@@ -18,7 +18,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: https://rajancp.github.io/FEM-Product-Preview-card/
+- Solution URL: (https://rajancp.github.io/FEM-Recipe-page-solution/)
 ### Built with
 
 - Semantic HTML5 markup
